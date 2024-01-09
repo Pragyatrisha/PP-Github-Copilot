@@ -1,0 +1,126 @@
+[
+  {
+    "CdsFCBContext": "{\"FileType\":true,\"ImageExternalStorage\":true}",
+    "EntitySetName": "crd72_softwaredevelopmentprojects",
+    "IsHidden": false,
+    "IsSampleData": false,
+    "IsWritable": true,
+    "LogicalName": "crd72_softwaredevelopmentproject",
+    "MaxGetRowsCount": 500,
+    "Name": "DD Projects tables",
+    "NativeCDSDataSourceInfoNameMapping": {
+      "_ownerid_value": "Owner",
+      "crd72_budget": "Budget",
+      "crd72_budget_base": "Budget (Base)",
+      "crd72_deadline": "Deadline",
+      "crd72_expertiseneeded": "Expertise Needed",
+      "crd72_projectid": "Project ID",
+      "crd72_projectname": "Project Name",
+      "crd72_shortageofdevelopers": "Shortage of Developers",
+      "crd72_skilleddevelopers": "Skilled Developers",
+      "crd72_softwaredevelopmentproject_AsyncOperations": "System Jobs",
+      "crd72_softwaredevelopmentproject_BulkDeleteFailures": "Bulk Delete Failures",
+      "crd72_softwaredevelopmentproject_DuplicateBaseRecord": "Duplicate Records (crd72_softwaredevelopmentproject_DuplicateBaseRecord)",
+      "crd72_softwaredevelopmentproject_DuplicateMatchingRecord": "Duplicate Records (crd72_softwaredevelopmentproject_DuplicateMatchingRecord)",
+      "crd72_softwaredevelopmentproject_MailboxTrackingFolders": "Mailbox Auto Tracking Folders",
+      "crd72_softwaredevelopmentproject_PrincipalObjectAttributeAccesses": "Field Sharing",
+      "crd72_softwaredevelopmentproject_ProcessSession": "Process Sessions",
+      "crd72_softwaredevelopmentproject_SyncErrors": "Sync Errors",
+      "crd72_softwaredevelopmentprojectid": "Software Development Project",
+      "createdby": "Created By",
+      "createdon": "Created On",
+      "createdonbehalfby": "Created By (Delegate)",
+      "exchangerate": "Exchange Rate",
+      "importsequencenumber": "Import Sequence Number",
+      "modifiedby": "Modified By",
+      "modifiedon": "Modified On",
+      "modifiedonbehalfby": "Modified By (Delegate)",
+      "overriddencreatedon": "Record Created On",
+      "owningbusinessunit": "Owning Business Unit",
+      "owningteam": "Owning Team",
+      "owninguser": "Owning User",
+      "statecode": "Status",
+      "statuscode": "Status Reason",
+      "timezoneruleversionnumber": "Time Zone Rule Version Number",
+      "transactioncurrencyid": "Currency",
+      "utcconversiontimezonecode": "UTC Conversion Time Zone Code",
+      "versionnumber": "Version Number"
+    },
+    "PreferredName": "DD Projects tables",
+    "Type": "NativeCDSDataSourceInfo"
+  },
+  {
+    "DisplayName": "DD Projects tables (Views)",
+    "Name": "_crd72_softwaredevelopmentproject_views",
+    "RelatedEntityName": "DD Projects tables",
+    "TrimmedViewName": true,
+    "Type": "ViewInfo",
+    "ViewInfoNameMapping": {
+      "5afad103-132f-4deb-a9eb-2dd24bab48c3": "DD Projects table Lookup View",
+      "8338f255-67e6-46fa-b107-e47b5ecbe662": "Active DD Projects tables",
+      "8f5c0636-cd0e-4dc7-981b-0ba2e47b0243": "DD Projects table Advanced Find View",
+      "90bb761b-8a36-4c8e-a65a-af6ca49ee7ea": "Inactive DD Projects tables",
+      "c6436ae0-8750-4368-afcb-e20b91214390": "DD Projects table Associated View"
+    }
+  },
+  {
+    "DisplayName": "Shortage of Developers (DD Projects tables)",
+    "Name": "crd72_softwaredevelopmentproject_crd72_shortageofdevelopers",
+    "OptionSetInfoNameMapping": {
+      "0": "Yes",
+      "1": "No"
+    },
+    "OptionSetIsBooleanValued": true,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "crd72_shortageofdevelopers",
+        "OptionSetReferenceEntityName": "DD Projects tables"
+      }
+    },
+    "OptionSetTypeKey": "BooleanType",
+    "RelatedColumnInvariantName": "crd72_shortageofdevelopers",
+    "RelatedEntityName": "DD Projects tables",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Status (DD Projects tables)",
+    "Name": "crd72_softwaredevelopmentproject_statecode",
+    "OptionSetInfoNameMapping": {
+      "0": "Active",
+      "1": "Inactive"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statecode",
+        "OptionSetReferenceEntityName": "DD Projects tables"
+      }
+    },
+    "OptionSetTypeKey": "StateType",
+    "RelatedColumnInvariantName": "statecode",
+    "RelatedEntityName": "DD Projects tables",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Status Reason (DD Projects tables)",
+    "Name": "crd72_softwaredevelopmentproject_statuscode",
+    "OptionSetInfoNameMapping": {
+      "1": "Active",
+      "2": "Inactive"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statuscode",
+        "OptionSetReferenceEntityName": "DD Projects tables"
+      }
+    },
+    "OptionSetTypeKey": "StatusType",
+    "RelatedColumnInvariantName": "statuscode",
+    "RelatedEntityName": "DD Projects tables",
+    "Type": "OptionSetInfo"
+  }
+]

@@ -1,0 +1,18 @@
+{
+  "QualifiedValues": [
+    {
+      "Kind": "default.cds_crd72_developmentcompanyresources_forms",
+      "Namespace": "DD Resources Tables (Forms)",
+      "Values": {
+        "Information": "10c4ae07-dd5d-4cf5-b005-d3efddfeb8fc"
+      }
+    },
+    {
+      "Kind": "default.cds_crd72_softwaredevelopmentproject_forms",
+      "Namespace": "DD Projects tables (Forms)",
+      "Values": {
+        "Information": "a6db948b-d105-4135-9eff-37a73d8511c3"
+      }
+    }
+  ]
+}
