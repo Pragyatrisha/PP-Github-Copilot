@@ -1094,36 +1094,6 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Project Details'.ScreenContainer1_1.BodyContainer1_1.RightContainer1_1.MainContainer1_1.Label3.TabIndex"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Project Details'.ScreenContainer1_1.BodyContainer1_1.RightContainer1_1.MainContainer1_1.Label3.TabIndex",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "TabIndex",
-                "module": "Project Details",
-                "type": "'Project Details'.ScreenContainer1_1.BodyContainer1_1.RightContainer1_1.MainContainer1_1.Label3"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
                   "fullyQualifiedName": "'Resource Details'.deleteCancelled"
                 }
               ],
